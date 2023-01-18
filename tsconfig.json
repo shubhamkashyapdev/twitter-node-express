@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["ESNext"],
+        "module": "NodeNext",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "checkJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "outDir": "dist",
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "ts-node": {
+        "transpileOnly": true,
+        "files": true
+    },
+    "exclude": [
+        "./coverage",
+        "./dist",
+        "__tests__",
+        "jest.config.js",
+        "tpes.d.ts",
+        "vite.config.ts",
+        "vitest.config.ts",
+        "global.d.ts"
+    ]
+}

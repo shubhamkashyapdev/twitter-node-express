@@ -1,0 +1,5 @@
+node_modules
+dist
+*.yml
+types.d.ts
+global.d.ts
